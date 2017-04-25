@@ -1,0 +1,16 @@
+# 设置文字列表路径
+text_path: "./names.txt"
+
+# 设置 RGB 颜色，和透明度
+color :
+  r: 0
+  g: 178
+  b: 238
+  a: 255
+
+fonts_path : "./fonts/SourceHanSansSC-Bold.otf"
+fonts_size : 85
+image_path : './images/wtm-templete.JPG'
+out_dir : './output/'
+x : 375
+y : 570
