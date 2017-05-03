@@ -27,5 +27,5 @@ with open('./names.txt') as f:
     for line in f:
         text = line.strip()
         out_path = out_dir + text + '.jpg'
-        add_text_to_image((x,y), text, fonts_path, fonts_size, image_path, color_rgba, out_path)
+        add_text_to_image((x,y), text.decode('utf-8'), fonts_path, fonts_size, image_path, color_rgba, out_path)
         print ('输出文件成功: ' + out_path)
